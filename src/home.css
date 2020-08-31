@@ -1,0 +1,182 @@
+body{
+    font-family: 'century gothic';
+    background-color: #e5e5e5;
+}
+h1
+{
+    font-size: 40px;
+    font-weight: 600;
+    color: black;
+}
+h2{
+    font-size: 25px;
+}
+.text_class
+{
+    width:550px;
+    height: 250px;
+    margin-top: 15% !important;
+}
+.header-img
+{
+    margin-top: 60px;
+    /* height: 450px; */
+    width:400px;  
+    animation: mymove 5s infinite;  
+}
+#header .animated{
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+@media only screen and (max-width: 600px) {
+  .text_class
+  {
+      width:550px;
+      height: 250px;
+      margin-top: 0% !important;
+  }
+
+}
+
+@keyframes up-down{
+    0%{
+        transform:  translatey(10px);
+    }
+    100%{
+        transform:translatey(-10px);
+    }
+}
+.button
+{
+    background-color:#092c5a !important ;
+    margin-top: 20px;
+    
+    border:transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.recipes {
+    width: 97%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .recipe {
+    width: 300px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    position: relative;
+
+    padding:10px;
+
+  }
+  
+  .recipe h2 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .recipe img {
+    height: 200px;
+    object-fit: cover;
+
+  }
+  
+  .recipe a {
+    font-size: 20px;
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #092c5a;
+    border: none;
+    border-radius: 0.5rem;
+    padding:10px;
+    height: 3rem;
+  }
+ 
+  
+  .ingredient-list {
+    margin-top: 1rem;
+    background-color: #f0f0f0;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+  }
+  
+  .ingredient-list li {
+    margin: 0.5rem 0;
+  }
+  
+  .ingredient-text {
+    font-size: 1.5rem;
+    color: #888;
+  }
+  
+  .ingredient-weight {
+    color: #40b48e;
+    font-size: 1.3rem;
+  }
+  .button
+  {
+      background-color: #092c5a;
+      color: #fff;
+      padding:6px;
+      margin-left: 10px;
+      padding-left: 20px;
+      padding-right: 20px;
+  }
+  .input
+  {
+      width:400px;
+      height: 37px;
+      text-align:center;
+  }
+  @media only screen and (max-width: 600px) {
+ 
+    .input
+    {
+        width:250px;
+        height: 37px;
+        text-align:center;
+    }
+  }
+
+
+
+
+
+
+  
+.alert {
+    width:200px;
+    left: 0;
+   
+    width: calc(100% - 0.4rem);
+    border-radius: 0.5rem;
+    padding: 0.2rem;
+  }
+  
+  .alert h3 {
+    font-size: 20px;
+    color:red !important;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: -100px;
+    text-align: center;
+  }
