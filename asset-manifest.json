@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/react-recipe_finder/static/css/main.9ec31a67.chunk.css",
+    "main.js": "/react-recipe_finder/static/js/main.674f7f4f.chunk.js",
+    "main.js.map": "/react-recipe_finder/static/js/main.674f7f4f.chunk.js.map",
+    "runtime-main.js": "/react-recipe_finder/static/js/runtime-main.c404498d.js",
+    "runtime-main.js.map": "/react-recipe_finder/static/js/runtime-main.c404498d.js.map",
+    "static/css/2.ea6b7726.chunk.css": "/react-recipe_finder/static/css/2.ea6b7726.chunk.css",
+    "static/js/2.ece80cae.chunk.js": "/react-recipe_finder/static/js/2.ece80cae.chunk.js",
+    "static/js/2.ece80cae.chunk.js.map": "/react-recipe_finder/static/js/2.ece80cae.chunk.js.map",
+    "index.html": "/react-recipe_finder/index.html",
+    "precache-manifest.10b3d4c0a1eb6c5b146854ae28807a72.js": "/react-recipe_finder/precache-manifest.10b3d4c0a1eb6c5b146854ae28807a72.js",
+    "service-worker.js": "/react-recipe_finder/service-worker.js",
+    "static/css/2.ea6b7726.chunk.css.map": "/react-recipe_finder/static/css/2.ea6b7726.chunk.css.map",
+    "static/css/main.9ec31a67.chunk.css.map": "/react-recipe_finder/static/css/main.9ec31a67.chunk.css.map",
+    "static/js/2.ece80cae.chunk.js.LICENSE.txt": "/react-recipe_finder/static/js/2.ece80cae.chunk.js.LICENSE.txt",
+    "static/media/aboutus.png": "/react-recipe_finder/static/media/aboutus.3400cdc1.png",
+    "static/media/home.png": "/react-recipe_finder/static/media/home.fb7121df.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c404498d.js",
+    "static/css/2.ea6b7726.chunk.css",
+    "static/js/2.ece80cae.chunk.js",
+    "static/css/main.9ec31a67.chunk.css",
+    "static/js/main.674f7f4f.chunk.js"
+  ]
+}
